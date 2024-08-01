@@ -1,4 +1,4 @@
-let userInput = document.getElementById("date");
+let userInput = document.getElementById("birthdate");
 userInput.max = new Date().toISOString().split("T")[0];
 let result = document.getElementById("result");
 
@@ -57,7 +57,7 @@ function calculateAge() {
   }
 
   if (userInput.value === "") {
-    alert("Pick a date!");
+    alert("You must pick a date!");
     result.innerHTML = "";
   }
 }

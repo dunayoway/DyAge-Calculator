@@ -23,7 +23,13 @@
           <span>Age Calculator</span>
         </h1>
         <div class="input__box">
-          <input type="date" id="date" />
+          <label for="birthdate"><strong>Birthday: </strong></label>
+          <input
+            type="text"
+            id="birthdate"
+            placeholder="Pick a date"
+            onfocus="(this.type='date')"
+          />
           <button onclick="calculateAge()">Calculate</button>
         </div>
         <p id="result"></p>
