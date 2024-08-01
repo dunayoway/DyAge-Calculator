@@ -113,6 +113,12 @@
   }
 }
 
+@media (max-width: 699px) {
+  .input__box {
+    min-width: 100%;
+  }
+}
+
 @media (min-width: 700px) {
   .calculator {
     margin-top: 7%;
